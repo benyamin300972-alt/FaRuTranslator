@@ -1,0 +1,2 @@
+# FaRuTranslator
+FaRuTranslator
