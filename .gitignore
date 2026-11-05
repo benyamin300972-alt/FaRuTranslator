@@ -1,0 +1,38 @@
+# Gradle
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/**/build/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing and secrets
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+.env
+.env.*
+
+# Generated / local files
+.DS_Store
+Thumbs.db
+*.log
+
+# Large model and audio artifacts (store separately; document checksums)
+*.onnx
+*.tflite
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.gguf
+*.wav
+*.mp3
+*.m4a
